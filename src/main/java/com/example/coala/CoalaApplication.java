@@ -9,5 +9,5 @@ public class CoalaApplication {
     public static void main(String[] args) {
         SpringApplication.run(CoalaApplication.class, args);
     }
-//coala application
+
 }
