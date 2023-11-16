@@ -6,6 +6,7 @@ import Community from './components/Community';
 import MyPage from './components/MyPage';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
+import Find from './components/Find';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                         <li><Link to='/mypage'>MyPage</Link></li>
                         <li><Link to='/login'>Login</Link></li>
                         <li><Link to='/SignUp'>Sign Up</Link></li>
+                        <li><Link to='/Find'>Find</Link></li>
                     </ul>
                 </div>
                 <div className='Contents-wrapper'>
@@ -27,6 +29,7 @@ function App() {
                         <Route path='/mypage' element={<MyPage />} />
                         <Route path='/login' element={<Login />} />
                         <Route path='/SignUp' element={<SignUp />} />
+                        <Route path='/Find' element={<Find />} />
                     </Routes>
                 </div>
             </Router>
