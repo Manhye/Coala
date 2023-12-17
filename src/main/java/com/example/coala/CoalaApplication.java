@@ -10,4 +10,6 @@ public class CoalaApplication {
         SpringApplication.run(CoalaApplication.class, args);
     }
 
+    //this is coala application
+
 }
