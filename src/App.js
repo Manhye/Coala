@@ -1,35 +1,36 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
+import Load from './components/Load';
 import Home from './components/Home';
-import Community from './components/Community';
+import Main_s from './components/Main_s';
+import Main_t from './components/Main_t'
 import MyPage from './components/MyPage';
 import Login from './components/Login';
-import SignUp from './components/SignUp';
-import Find from './components/Find';
+import TeacherSignUp from './components/TeacherSignUp';
+import ChatList_s from './components/ChatList_s';
+import StudentSignUp from './components/StudentSignUp';
+import Chat from './components/Chat';
+import './index.css';
+
 
 function App() {
     return (
         <div className="App">
             <Router>
-                <div className='Menu-wrapper'>
-                    <ul>
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/community'>Community</Link></li>
-                        <li><Link to='/mypage'>MyPage</Link></li>
-                        <li><Link to='/login'>Login</Link></li>
-                        <li><Link to='/SignUp'>Sign Up</Link></li>
-                        <li><Link to='/Find'>Find</Link></li>
-                    </ul>
-                </div>
                 <div className='Contents-wrapper'>
                     <Routes>
-                        <Route path='/' element={<Home />} />
-                        <Route path='/community' element={<Community />} />
+                        <Route path='/' element={<Load />} />
+                        <Route path='/home' element={<Home />} />
+                        <Route path='/main_s' element={<Main_s />} />
+                        <Route path='/main_t' element={<Main_t />} />
                         <Route path='/mypage' element={<MyPage />} />
                         <Route path='/login' element={<Login />} />
-                        <Route path='/SignUp' element={<SignUp />} />
-                        <Route path='/Find' element={<Find />} />
+                        <Route path='/TeacherSignUp' element={<TeacherSignUp />} />
+                        <Route path='/StudentSignUp' element={<StudentSignUp />} />
+                        <Route path='/ChatList_s' element={<ChatList_s />} />
+                        <Route path='/Chat' element={<Chat />} />
+
                     </Routes>
                 </div>
             </Router>

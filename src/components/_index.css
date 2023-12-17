@@ -1,0 +1,159 @@
+.load-page{
+  margin: 0;
+  padding: 0;
+  background-color: #2657c1;
+  width: 400px;
+  height: 850px;
+}
+
+.load-img{
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 225px;
+  right: 135px;
+}
+
+.topContainer {
+  display: flex;
+  width: 370px;
+  height: 80px;
+  background-color: #2657c1;
+  border-radius: 11px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.text1 {
+  color: #fff;
+  text-align: center;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: 200;
+  position: absolute;
+  top: 200px;
+  left: 125px;
+}
+.text2 {
+  color: #fff;
+  font-size: 35px;
+  position: absolute;
+  top: 365px;
+  left: 150px;
+}
+
+.textMain1{
+  color: #fff;
+  font-size: 10px;
+}
+.textMain2{
+  color: #fff;
+  font-size: 20px;
+}
+
+.teachercontainerimg{
+  width: 55px;
+  height: 55px;
+  position: relative;
+  top: 10px;
+}
+header img {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: 20px;
+  left: 80px;
+}
+
+.textContainer {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+#search {
+  margin: 10px;
+  display: flex;
+  width: 370px;
+  height: 25px;
+  border-radius: 11px;
+  border: 1px solid #000000;
+  margin-left: 20px;
+}
+#search > img {
+  position: relative;
+  top: 5px;
+  left: 4px;
+  width: 17.5px;
+  height: 17.5px;
+}
+#search > input {
+  border: none;
+}
+.teacher-container {
+  display: inline-block;
+  width: 354px;
+  height: 582px;
+  margin-left: 11px;
+}
+.one-teacher {
+  display: flex;
+  width: 370px;
+  height: 78px;
+  border-radius: 12px;
+  border: 1px solid #0000007d;
+  justify-content: space-around;
+  margin: 7px;
+}
+.middle-text {
+  position: relative;
+  top: 15px;
+}
+.middle-text-1 {
+  font-size: 15px;
+  font-weight: 400px;
+}
+.middle-text-2 {
+  font-size: 8px;
+  font-weight: 400px;
+  line-height: 22px;
+}
+.middle-text div {
+  display: flex;
+  width: 118px;
+  height: 25px;
+}
+.end-text {
+  display: flex;
+  width: 124px;
+  height: 42px;
+  flex-wrap: wrap;
+  position: relative;
+  top: 20px;
+  left: -20px;
+}
+.end-text span {
+  font-size: 10px;
+  font-weight: 400px;
+}
+footer > div {
+  position: relative;
+  top: 40px;
+  border-top: 2px solid #00000043;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer div > div {
+  width: 48px;
+  height: 40px;
+  display: inline-block;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  text-align: center;
+}
+footer div img {
+  width: 40px;
+  height: 40px;
+}
+footer div span {
+  font-size: 11px;
+}

@@ -1,0 +1,91 @@
+.main-font {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30vh;
+    font-family: 'Orbit', sans-serif;
+    margin-left: 5vh;
+    line-height: 0;
+}
+
+.box-container{
+    margin-top: -5vh;
+    margin-left:40px;
+}
+
+
+.border-box {
+    width: 300px;
+    height: 80px;
+    border: 2px solid #f0f0f0;
+    border-radius: 15px;
+    display: flex;
+    font-family: 'Orbit', sans-serif;
+    margin-bottom: 20px;
+}
+
+.login-box{
+    width:300px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #2657C1;
+    color: white;
+}
+
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.text-in-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.link-style{
+    color: black;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.link-style:visited{
+    text-decoration: none;
+}
+.link-style:hover{
+    text-decoration: none;
+}
+.link-style:focus{
+    text-decoration: none;
+}
+.link-style:active{
+    text-decoration: none;
+}
+
+.link-style:hover {
+    color: inherit; /* 마우스를 올렸을 때 색상을 부모 요소로부터 상속 */
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+.img-style{
+    width: 30px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.main-bottom{
+    display: flex;
+    flex-direction:column;
+    height: 100vh;
+    margin-left: 40px;
+
+}
+
+.login-text{
+    text-align: center;
+}

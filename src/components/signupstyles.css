@@ -1,0 +1,60 @@
+.sign-font {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Orbit', sans-serif;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    line-height: 0;
+}
+
+.styled-input {
+    width: 280px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.login-box{
+    width:300px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #2657C1;
+    color: white;
+}
+
+.linkOpt{
+    text-decoration: none;
+}
+.linkOpt:visited{
+    text-decoration: none;
+}
+.linkOpt:hover{
+    text-decoration: none;
+}
+.linkOpt:focus{
+    text-decoration: none;
+}
+.linkOpt:active{
+    text-decoration: none;
+}
+
+.register-box{
+    width:300px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #2657C1;
+    color: white;
+    margin-top: 20vh;
+}
+
+.back{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: #2657C1;
+}
